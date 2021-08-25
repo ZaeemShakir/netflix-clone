@@ -1,7 +1,14 @@
 .row {
+  color: azure;
 }
 .posters {
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+.posters::-webkit-scrollbar {
+  display: none;
 }
 .row_posters {
   width: 100%;
