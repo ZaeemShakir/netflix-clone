@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Row title="Netflix Orignal" fetchURL={request.fetchNetflixOrignals} />
-        <Row title="Trendings" fetchURL={request.fetchTrending} />
+        <Row title="Netflix Original" fetchUrl={request.fetchNetflixOrignals} />
+        <Row title="Trendings" fetchUrl={request.fetchTrending} />
       </div>
     </div>
   );
