@@ -1,3 +1,6 @@
 * {
-  background-color: black;
+  margin: 0;
+}
+.app {
+  background-color: #111;
 }

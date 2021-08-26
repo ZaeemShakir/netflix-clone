@@ -1,5 +1,6 @@
 .row {
-  color: azure;
+  color: white;
+  margin-left: 20px;
 }
 .posters {
   display: flex;
@@ -19,5 +20,13 @@
 }
 .row_posters:hover {
   transform: scale(1.09);
+  opacity: 1;
+}
+.row_large {
+  max-height: 250px;
+}
+
+.row_large:hover {
+  transform: scale(1.1);
   opacity: 1;
 }
